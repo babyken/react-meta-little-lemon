@@ -1,0 +1,41 @@
+.float-right {
+    margin-left:auto !important;
+}
+
+.specials .row{
+    --gap: 20px;
+    --columns: 3;
+    gap: var(--gap);
+}
+
+.special-item.row {
+    margin-top: 20px;
+}
+
+.special-item .col {
+    width: calc((100% / var(--columns)) - var(--gap) + (var(--gap) / var(--columns)));    
+}
+
+
+.price {
+    color: #EE9972;
+    margin: 0;
+    font-weight: 700;
+}
+
+.order-text {
+    font-weight: bold;
+}
+
+.details-container {
+    background-color: #edefee;
+    padding: 12px;
+    border-radius: 0px 0px 12px 12px;
+}
+
+.thumbnail {
+    width: 100%;
+    max-height: 200px;
+    border-radius: 12px 12px 0px 0px;
+}
+

@@ -1,0 +1,38 @@
+.hero {    
+    background-color: #EDEFEE;
+}
+
+.hero .row {
+    flex-wrap: wrap-reverse;
+}
+
+.hero img {
+    width: 375px;
+    margin: 15px auto 15px auto;
+    border-radius: 4px;
+}
+
+.hero .col {
+    width: 50%;
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 769px) {
+    .info-box {
+      margin: auto;
+    }
+  }
+
+
+.info-box .details{
+    margin-bottom:auto;
+}
+
+.info-box .btn-container {    
+    margin-top: auto;
+}

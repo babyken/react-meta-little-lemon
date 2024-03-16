@@ -1,0 +1,37 @@
+.testimonials {
+    background-color: #edefee;
+}
+
+.testimonials .row {
+    --gap: 20px;
+    --columns: 4;
+    gap: var(--gap);    
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+
+.testimonials>h1 {    
+    text-align: center;
+}
+
+.testimonials .col {
+    width: calc((100% / var(--columns)) - var(--gap) + (var(--gap) / var(--columns)));    
+    background-color: white;
+    border-radius: 6px;
+    align-items: center;
+}
+
+.testimonials .col>div {
+    margin: 8px auto;
+}
+
+.testimonials .profile {
+    display: flex;
+    align-items: center;
+}
+
+.testimonials .profile img{
+    width: 60px;
+    border-radius: 30px;
+    margin-right: 5px;
+}
