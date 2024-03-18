@@ -13,7 +13,7 @@
 }
 
 .special-item .col {
-    width: calc((100% / var(--columns)) - var(--gap) + (var(--gap) / var(--columns)));    
+    width: calc((100% / var(--columns)) - var(--gap) + (var(--gap) / var(--columns)));
 }
 
 
@@ -31,11 +31,12 @@
     background-color: #edefee;
     padding: 12px;
     border-radius: 0px 0px 12px 12px;
+    height: 100%;
 }
 
 .thumbnail {
     width: 100%;
-    max-height: 200px;
+    max-height: 188px;
     border-radius: 12px 12px 0px 0px;
 }
 

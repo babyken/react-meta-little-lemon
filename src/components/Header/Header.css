@@ -5,3 +5,12 @@
     justify-content: center;
     grid-area: head;
 }
+
+@media only screen and (max-width: 768px) {
+    .header {
+        justify-content: space-between;
+    }
+    .logo {
+        margin-left: 12px;
+    }
+}

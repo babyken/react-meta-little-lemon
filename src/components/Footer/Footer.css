@@ -1,6 +1,9 @@
 .footer {
     grid-area: footer;
     background-color: #EDEFEE;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .footer .row{
@@ -10,7 +13,7 @@
 }
 
 .footer .col {
-    width: calc((100% / var(--columns)) - var(--gap) + (var(--gap) / var(--columns)));    
+    width: calc((100% / var(--columns)) - var(--gap) + (var(--gap) / var(--columns)));
 }
 
 .footer .col a {

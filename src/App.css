@@ -1,9 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
 .App {
   display: grid;
   grid-template-areas:  "head"
                         "main"
                         "footer";
-  grid-template-rows: 1fr 12fr 3fr;
+  grid-template-rows: 0.1fr 2fr 0.5fr;
+}
+
+@media screen and (max-width: 768px) {
+  .App {
+    grid-template-rows: 64px 2fr 0.5fr;
+
+  }
 }
 
 section {
